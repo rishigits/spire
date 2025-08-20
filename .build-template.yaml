@@ -1,4 +1,4 @@
-template: script-project.yaml
+template: templates/script-project.yaml
 overrides:
   artifacts:
     - type: script
