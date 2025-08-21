@@ -3,6 +3,7 @@ overrides:
   artifacts:
     - type: script
       build_script:
+        gh_name: spire
         repo_name: linux-on-ibm-z-scripts
         path: src/build.sh
         args: --version 1.12.4
