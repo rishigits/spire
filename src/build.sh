@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e -o pipefail
-version=${@:2}
+read -ra arr <<< "$@"
+version=${arr[1]}
 echo "rishi: var1: {$1} - ${version}"
 trap 0 1 2 ERR
 bash /tmp/linux-on-ibm-z-scripts/Spire/${version}/build_spire.sh -y
