@@ -1,4 +1,4 @@
-template: templates/script-project.yaml
+template: templates/loz-script-project.yaml
 overrides:
   artifacts:
     - type: script
