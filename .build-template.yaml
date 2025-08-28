@@ -7,4 +7,4 @@ overrides:
         repo_name: linux-on-ibm-z-scripts
         path: src/build.sh
         args: --version 1.12.4
-        docker_image: s390x:dind
+        docker_image: ubuntu:22.04
